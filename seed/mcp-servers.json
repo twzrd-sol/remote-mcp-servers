@@ -226,7 +226,7 @@
   {
     "id": "cloudflare-graphql-server",
     "name": "Cloudflare GraphQL",
-    "description": "Get analytics data using Cloudflare’s GraphQL API",
+    "description": "Get analytics data using Cloudflare\u2019s GraphQL API",
     "category": "Cloudflare Service",
     "mcp_url": "https://graphql.mcp.cloudflare.com/sse",
     "authentication_type": "OAuth2",
@@ -620,6 +620,20 @@
     "maintainer_name": "GitMCP",
     "maintainer_url": "https://gitmcp.io",
     "icon_url": null,
+    "is_official": true
+  },
+  {
+    "id": "twzrd-agent-intel",
+    "name": "TWZRD Agent Intel",
+    "description": "Trust + receipt layer for x402 agents on Solana. Free preflight tools score any Solana wallet; paid get_trust_receipt returns signed twzrd.receipt.v5 via HTTP 402 + USDC.",
+    "category": "AI Agents",
+    "mcp_url": "https://intel.twzrd.xyz/mcp",
+    "authentication_type": "x402",
+    "dynamic_client_registration": false,
+    "documentation_url": "https://intel.twzrd.xyz",
+    "maintainer_name": "TWZRD",
+    "maintainer_url": "https://twzrd.xyz",
+    "icon_url": "https://intel.twzrd.xyz/favicon.ico",
     "is_official": true
   }
 ]
